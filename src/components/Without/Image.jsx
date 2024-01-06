@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const LikeImage = () => {
+export default function LikeImage() {
   const [likeImageCounter, setLikeImageCounter] = useState(0);
 
   const handleLikeImageCount = () => {
@@ -17,6 +17,4 @@ const LikeImage = () => {
       </button>
     </div>
   );
-};
-
-export default LikeImage;
+}

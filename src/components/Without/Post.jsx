@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const LikePost = () => {
+export default function LikePost() {
   const [likePostCounter, setPostCounter] = useState(0);
 
   const handlePostCount = () => {
@@ -17,6 +17,4 @@ const LikePost = () => {
       </button>
     </div>
   );
-};
-
-export default LikePost;
+}
